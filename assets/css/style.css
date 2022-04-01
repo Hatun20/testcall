@@ -1,0 +1,667 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+body{
+
+}
+
+html{
+    font-family:  'Open Sans';
+}
+
+/* css header */
+
+#header {
+    height: 60px;
+    border-bottom: 1px solid #333;
+    background-color: #05527d;
+    top: 0;
+    position: fixed;
+    left: 0;
+    right: 0;
+}
+
+#header #logo {
+    width: 20%;
+    height: 60px;
+    float: left;
+    text-align: right;
+}
+
+#header #logo img {
+    padding:2px ;
+    width: auto;
+    height: 60px;
+}
+
+#header #name{
+    width: 20%;
+    float: left;
+}
+
+#header #name img{
+    height: 30px;
+    width: auto;
+    margin-top: 15px;
+    margin-left: 3px;
+}
+
+#header #menu {
+    width: 60%;
+    height: 60px;
+    float: left;
+}
+
+#menu .nav a b {
+    color: #f1f1f1;
+}
+
+.nav{
+    display: inline-block;
+}
+
+.nav ,.subnav{
+    list-style: none;
+}
+
+.nav > li{
+    display: inline-block;
+}
+
+.nav li {
+    position: relative;
+}
+
+.nav > li > a{
+    text-transform: uppercase;
+}
+
+.nav li a{
+    text-decoration: none;
+    line-height: 60px;
+    padding: 0 30px 0 30px;
+    display: inline-block;
+}
+
+.nav li:hover .subnav {
+    display: block;
+}
+
+.nav > li:hover > a,
+.nav .subnav li:hover{
+    background-color: burlywood;
+
+}
+
+#header #menu .nav li a:hover b{
+    
+    color: #333;
+}
+.nav .subnav {
+    display: none;
+    position: absolute;    
+    background-color: aliceblue;
+    width: 200px;
+    box-shadow: 0 0 10px rgba(0,0,0, 3.3) ;
+}
+.nav a {
+    font-size: 16px;
+    color: #333;
+}
+.nav .subnav a {
+    font-size: 15px;
+    padding: 0 12px;
+    line-height: 38px;
+}
+
+
+/* css banner */
+#banner img {
+    width: 100%;
+    height: auto;
+}
+
+/* css content */
+#content #content1{
+    color: #05527d;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+
+#content #content1 img{
+    margin-top: 20px;
+    width: 10%;
+}
+
+#content #content1 .content1{
+    font-size: 14px;
+    margin-bottom: 10px;
+    letter-spacing: 5px;
+}
+
+#content .content3{
+    color: #000;
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+/* css list */
+
+#list {
+    width: 100%;
+    margin-top: 50px;
+}
+
+#list .list{
+    width: 300px;
+    float: left;
+    margin-left: 30px;
+    text-align: center;
+}
+
+#list .list p{
+    margin-top: 20px;
+    text-align: left;
+    color: #05527d;
+    word-spacing: 5px;
+    font-weight: 800;
+}
+
+/* css khám phá */
+#khampha{
+    float: left;
+    width: 95%;
+    margin-left: 2.5%;
+    margin-top: 70px;
+    font-weight: 900;
+    text-align: center;
+    color: #05527d;
+}
+
+#khampha img{
+    height: 3px;
+    width: 10%;
+}
+
+#khampha p{
+    color: #000;
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+/* css tmgd */
+#tmgd{
+    width: 95%;
+    float: left;
+    margin-top: 50px;
+    margin-left: 2.5%;
+}
+
+#tmgd .gd-img{
+    width: 50%; 
+    float: left;
+}
+
+#tmgd .gd-img img{
+    width: 100%;
+    height: auto;
+}
+
+#tmgd .gd-text{
+    width: 45%;
+    float: left;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+.gd-text h2{
+    text-align: center;
+    color: #05527d;
+}
+
+.gd-text p{
+    margin-top: 30px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    color: #333;
+}
+
+.gd-text i{
+    color: #e9b714;
+    font-size: 20px;
+    font-weight: 700;
+    margin-right: 5px;
+}
+
+#tmgd .gd-text #btnll{
+    background-color: #4e83a1;
+    width: 150px;
+    height: 50px;
+    margin-top: 20px;
+}
+
+#tmgd .gd-text #btnll:hover{
+    background-color: rgb(88, 74, 214);
+}
+
+#tmgd .gd-text #btnll a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #e9b714;
+    line-height: 50px;
+    margin-left: 6px;
+}
+
+/* css tmtc */
+#tmtc{
+    width: 95%;
+    float: left;
+    margin-top: 50px;
+    margin-left: 2.5%;
+}
+
+#tmtc .tc-text{
+    width: 45%;
+    float: left;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+#tmtc .tc-text h2{
+    text-align: center;
+    color: #05527d;
+}
+
+#tmtc .tc-text p{
+    margin-top: 30px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    color: #333;
+}
+
+#tmtc .tc-text i{
+    color: #e9b714;
+    font-size: 20px;
+    font-weight: 700;
+    margin-right: 5px;
+}
+
+#tmtc .tc-text #btnll{
+    background-color: #4e83a1;
+    width: 150px;
+    height: 50px;
+    margin-top: 20px;
+}
+
+#tmtc .tc-text #btnll:hover{
+    background-color: rgb(88, 74, 214);
+}
+
+#tmtc .tc-text #btnll a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #e9b714;
+    line-height: 50px;
+    margin-left: 6px;
+}
+
+#tmtc .tc-img{
+    width: 50%; 
+    float: left;
+}
+
+#tmtc .tc-img img{
+    width: 100%;
+    height: auto;
+}
+
+/* css ruler */
+
+#ruler{
+    margin-top: 50px;
+    width: 100%;
+    float: left;
+}
+
+#ruler .ruler{
+    width: 40%;
+    float: left;
+    height: 5px;
+}
+
+#ruler .ruler1{
+    width: 60%;
+    float: left;
+    height: 5px;
+}
+
+/* css gp */
+#gp{
+    width: 100%;
+    float: left;
+}
+
+#gp{
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+}
+
+#gp img{
+    margin-top: 20px;
+    height: 5px;
+    width: 10%;
+}
+
+#gp p{
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin-top: 20px;
+}
+
+#gp-img{
+    width: 100%;
+    float: left;
+    margin-top: 50px;
+}
+
+#gp-img img{
+    width: 100%;
+    height: auto;
+}
+
+/* css list giải pháp */
+#gpdv{
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+#list-gp{
+    width: 500px;
+    float: left;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+#list-gp .btn{
+    width: 80%;
+    margin-left: 10px;
+    background-color: #4e83a1;
+    text-align: center;
+    height: 50px;
+    margin-top: 2px;
+    border: 1px solid #05527d;
+}
+
+#list-gp .btn:hover{
+    background-color: rgb(88, 74, 214);
+}
+
+#list-gp .btn a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #e6cb74;
+    line-height: 50px;
+}
+
+#list-dv{
+    width: 500px;
+    float: left;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+#list-dv .btn{
+    width: 80%;
+    margin-left: 10px;
+    background-color: rgb(88, 74, 214);
+    text-align: center;
+    height: 50px;
+    margin-top: 2px;
+    border: 1px solid #7c1fe6;
+}
+
+#list-dv .btn:hover{
+    background-color: #4e83a1;
+}
+
+#list-dv .btn a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #e6cb74;
+    line-height: 50px;
+}
+
+/* css liên hệ */
+#lienhe{
+    background-color: rgb(226, 211, 211);
+    width: 100%;
+    float: left;
+    margin-top: 50px;
+}
+
+#lienhe .text-top{
+    margin-top: 50px;
+    width: 100%;
+    text-align: center;
+}
+
+#lienhe .text-top h2{
+    text-align: center;
+    color: #05527d;
+    font-weight: 900;
+    font-size: 30px;
+}
+
+#lienhe .text-top img{
+    margin-top: 20px;
+    width: 5%;
+    height: 3px;
+}
+
+#lienhe .text-top p {
+    margin-top: 10px;
+}
+
+#lienhe .text-down{
+    width: 80%;
+    float: left;
+    margin-top: 50px;
+    margin-left: 5%;
+}
+
+#lienhe .text-down h1{
+    font-weight: 500;    
+}
+
+#lienhe .text-down p{
+    word-spacing: 1px;
+    margin-top: 20px;
+    font-weight: 500;
+}
+
+#lienhe .banner{
+    width: 100%;
+    float: left;
+    margin-top: 50px;
+}
+
+#lienhe .banner img{
+    width: 100%;
+    height: auto;
+}
+
+#lienhe .down{
+    width: 100%;
+    margin-top: 30px;
+    float: left;
+}
+
+#lienhe .down .down-left, 
+#lienhe .down .down-right {
+    width: 45%;
+    margin-left: 2.5%;
+    float: left;
+}
+
+#lienhe .down img{
+    width: 100%;
+    height: auto;
+}
+
+/* css footer */
+#footer{
+    width: 100%;
+    float: left;
+    background-color: #05527d;
+    margin-top: 10px;
+}
+
+#footer .fts{
+    width: 230px;
+    margin-left: 2.5%;
+    margin-top: 70px;
+    float: left;
+}
+
+#footer .fts .logo img{
+    width: 150px;
+    height: auto;
+    float: left;
+    margin-left: 40px;
+}
+
+#footer .fts .text1 h3{
+    text-align: center;
+    margin-top: 10px;
+    color: #ff993f;
+}
+
+#footer .fts h3{
+    margin-top: 20px;
+    color: aliceblue;
+    letter-spacing: 1px;
+}
+
+#footer .fts p{
+    margin-top: 20px;
+    color: aliceblue;
+    font-weight: 300;
+}
+
+#footer .fts img{
+    width: 50px;
+    height: auto;
+    margin-left: 100px;
+    margin-top: 40px;
+}
+
+
+
+
+
+/* css giaiphap */
+
+#gp-total {
+    width: 100%;
+}
+
+#gp-total #banner{
+    width: 100%;
+}
+
+#gp-total #banner img{
+    width: 100%;
+    height: auto;
+}
+
+
+/* css dich vụ */
+#dv-total {
+    width: 100%;
+}
+
+#dv-total #banner{
+    width: 100%;
+}
+
+#dv-total #banner img{
+    width: 100%;
+    height: auto;
+}
+
+
+/* css liên hệ */
+#lh-total {
+    width: 100%;
+}
+
+#lh-total #banner{
+    width: 100%;
+}
+
+#lh-total #banner img{
+    width: 100%;
+    height: auto;
+}
+
+#lh-total #about{
+    margin-top: 50px;
+    width: 100%;
+}
+
+#lh-total #about h3{
+    text-align: center;
+    color: #05527d;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+#lh-total #about img{
+    width: 10%;
+    height: 3px;
+    margin-left: 45%;
+}
+
+#lh-total #content{
+    width: 95%;
+    margin-top: 50px;
+    margin-left: 2.5%;
+}
+
+#lh-total #content .left{
+    width: 50%;
+    float: left;
+}
+
+#lh-total #content .left img{
+    width: 100%;
+    height: auto;
+}
+
+#lh-total #content .right{
+    width: 50%;
+    float: left;
+}
+
+#lh-total #content .right .text{
+    width: 80%;
+    margin-left: 20%;
+    margin-top: 50px;
+}
+#lh-total #content .right .text h3{
+    margin-top: 20px;
+}
+
+#lh-total #content .right .text p{
+    margin-top: 30px;
+}
+
+/* #lh-total #content .right .text p .icon{
+    margin-left: 5px;
+    margin-right: 5px;
+} */
